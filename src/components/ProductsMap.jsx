@@ -2,7 +2,7 @@ import products from '../Data.js'
 
 const ProductsMap = () => {
     const ProductNames = products.map( function(item) {
-        return item.name + "\n ";
+        return item.name + ", ";
     });  
 
     return <div>
